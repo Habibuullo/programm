@@ -1,12 +1,12 @@
 // Листинг 2.1
-// myfirst.cpp -- Выводит сообщение на экран
-#include <iostream>  //директива процессора
-int main() //заголовок функции
+// myfirst.cpp
+#include <iostream>  
+int main()
 {
-	using namespace std;                    // делает видимыми определения
-	cout << "Come up and C++ me some time"; // сообщение
-	cout << endl;                           // начало новой строке
-	cout << "You won't regret it" << endl;  // дополнительный вывод
-	return 0;					  // завершение функции main
+	using namespace std;                    
+	cout << "Come up and C++ me some time"; 
+	cout << endl;                           
+	cout << "You won't regret it" << endl;  
+	return 0;					  
 }
-							  // конец тело функции
+							
